@@ -9,5 +9,7 @@ package com.ming.design.decorator;
  * @date: 2020-04-26 23:39
  */
 public abstract class CondimentDecorator extends Beverage {
+
+    @Override
     public abstract String getDescription();
 }
