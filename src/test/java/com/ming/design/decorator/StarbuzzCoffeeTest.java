@@ -3,8 +3,10 @@ package com.ming.design.decorator;
 import org.junit.Test;
 
 /**
+ * 星巴兹咖啡 测试类
+ *
  * @program: design-pattern
- * @description: 星巴滋测试
+ * @description: 星巴兹咖啡-测试
  * @author: ming
  * @date: 2020-04-26 23:54
  */
@@ -13,6 +15,7 @@ public class StarbuzzCoffeeTest {
     @Test
     public void main() {
         Beverage beverage = new Espresso();
+        beverage = new Milk(beverage);
         System.out.println(beverage.getDescription() + " $" + beverage.cost());
 
         Beverage beverage1 = new DarkRoast();

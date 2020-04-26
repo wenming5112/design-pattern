@@ -1,10 +1,10 @@
 package com.ming.design.decorator;
 
 /**
- * 低咖啡因
+ * 低咖啡因咖啡
  *
  * @program: design-pattern
- * @description: 低咖啡因
+ * @description: 低咖啡因咖啡
  * @author: ming
  * @date: 2020-04-26 23:34
  */
