@@ -29,6 +29,10 @@ public class StarbuzzCoffeeTest {
         beverage2 = new Mocha(beverage2);
         beverage2 = new Whip(beverage2);
         System.out.println(beverage2.getDescription() + " $" + beverage2.cost());
+
+        Beverage beverage3 = new Decaf();
+        beverage3 = new Soy(new Mocha(new Whip(new Milk(beverage3))));
+        System.out.println(beverage3.getDescription() + " $" + beverage3.cost());
     }
 
 }
