@@ -3,25 +3,23 @@ package com.ming.design.decorator;
 /**
  * 奶泡
  *
- * @program: design-pattern
- * @description: 奶泡-调料
- * @author: ming
- * @date: 2020-04-27 00:02
+ * @author ming
+ * @date 2020-04-26 23:20
  */
-public class Whip extends CondimentDecorator {
-    Beverage beverage;
+public class Whip extends AbstractCondimentDecorator {
+    private AbstractBeverage abstractBeverage;
 
-    public Whip(Beverage beverage) {
-        this.beverage = beverage;
+    Whip(AbstractBeverage abstractBeverage) {
+        this.abstractBeverage = abstractBeverage;
     }
 
     @Override
     public String getDescription() {
-        return beverage.getDescription() + " ," + "Whip";
+        return abstractBeverage.getDescription() + " ," + "Whip";
     }
 
     @Override
     public double cost() {
-        return .10 + beverage.cost();
+        return .10 + abstractBeverage.cost();
     }
 }

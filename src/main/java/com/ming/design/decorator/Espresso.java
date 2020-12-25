@@ -3,14 +3,12 @@ package com.ming.design.decorator;
 /**
  * 浓缩咖啡
  *
- * @program: design-pattern
- * @description: 浓缩咖啡
- * @author: ming
- * @date: 2020-04-26 23:25
+ * @author ming
+ * @date 2020-04-26 23:20
  */
-public class Espresso extends Beverage {
+public class Espresso extends AbstractBeverage {
 
-    public Espresso() {
+    Espresso() {
         description = "Espresso Coffee";
     }
 

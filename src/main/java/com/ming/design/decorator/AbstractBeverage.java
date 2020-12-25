@@ -3,12 +3,10 @@ package com.ming.design.decorator;
 /**
  * 饮料
  *
- * @program: design-pattern
- * @description: 饮料抽象类
- * @author: ming
- * @date: 2020-04-26 23:20
+ * @author ming
+ * @date 2020-04-26 23:20
  */
-public abstract class Beverage {
+public abstract class AbstractBeverage {
     String description = "Unknown Beverage";
 
     public String getDescription() {

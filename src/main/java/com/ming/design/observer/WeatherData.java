@@ -3,10 +3,10 @@ package com.ming.design.observer;
 import java.util.Observable;
 
 /**
- * @program: design-pattern
- * @description: 天气数据
- * @author: ming
- * @date: 2020-04-28 00:12
+ * 天气数据
+ *
+ * @author ming
+ * @date 2020-04-26 23:20
  */
 public class WeatherData extends Observable {
 
@@ -14,11 +14,11 @@ public class WeatherData extends Observable {
     private float humidity;
     private float pressure;
 
-    public WeatherData() {
+    WeatherData() {
 
     }
 
-    public void measurementsChanged() {
+    private void measurementsChanged() {
         setChanged();
         notifyObservers();
     }
@@ -30,7 +30,7 @@ public class WeatherData extends Observable {
         measurementsChanged();
     }
 
-    public float getTemperature(){
+    public float getTemperature() {
         return temperature;
     }
 

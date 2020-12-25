@@ -5,34 +5,32 @@ import org.junit.Test;
 /**
  * 星巴兹咖啡 测试类
  *
- * @program: design-pattern
- * @description: 星巴兹咖啡-测试
- * @author: ming
- * @date: 2020-04-26 23:54
+ * @author ming
+ * @date 2020-04-26 23:20
  */
 public class StarbuzzCoffeeTest {
 
     @Test
     public void main() {
-        Beverage beverage = new Espresso();
-        beverage = new Milk(beverage);
-        System.out.println(beverage.getDescription() + " $" + beverage.cost());
+        AbstractBeverage abstractBeverage = new Espresso();
+        abstractBeverage = new Milk(abstractBeverage);
+        System.out.println(abstractBeverage.getDescription() + " $" + abstractBeverage.cost());
 
-        Beverage beverage1 = new DarkRoast();
-        beverage1 = new Mocha(beverage1);
-        beverage1 = new Mocha(beverage1);
-        beverage1 = new Whip(beverage1);
-        System.out.println(beverage1.getDescription() + " $" + beverage1.cost());
+        AbstractBeverage abstractBeverage1 = new DarkRoast();
+        abstractBeverage1 = new Mocha(abstractBeverage1);
+        abstractBeverage1 = new Mocha(abstractBeverage1);
+        abstractBeverage1 = new Whip(abstractBeverage1);
+        System.out.println(abstractBeverage1.getDescription() + " $" + abstractBeverage1.cost());
 
-        Beverage beverage2 = new HouseBlend();
-        beverage2 = new Soy(beverage2);
-        beverage2 = new Mocha(beverage2);
-        beverage2 = new Whip(beverage2);
-        System.out.println(beverage2.getDescription() + " $" + beverage2.cost());
+        AbstractBeverage abstractBeverage2 = new HouseBlend();
+        abstractBeverage2 = new Soy(abstractBeverage2);
+        abstractBeverage2 = new Mocha(abstractBeverage2);
+        abstractBeverage2 = new Whip(abstractBeverage2);
+        System.out.println(abstractBeverage2.getDescription() + " $" + abstractBeverage2.cost());
 
-        Beverage beverage3 = new Decaf();
-        beverage3 = new Soy(new Mocha(new Whip(new Milk(beverage3))));
-        System.out.println(beverage3.getDescription() + " $" + beverage3.cost());
+        AbstractBeverage abstractBeverage3 = new Decaf();
+        abstractBeverage3 = new Soy(new Mocha(new Whip(new Milk(abstractBeverage3))));
+        System.out.println(abstractBeverage3.getDescription() + " $" + abstractBeverage3.cost());
     }
 
 }

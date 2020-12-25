@@ -3,14 +3,12 @@ package com.ming.design.decorator;
 /**
  * 综合咖啡
  *
- * @program: design-pattern
- * @description: 综合咖啡
- * @author: ming
- * @date: 2020-04-26 23:29
+ * @author ming
+ * @date 2020-04-26 23:20
  */
-public class HouseBlend extends Beverage {
+public class HouseBlend extends AbstractBeverage {
 
-    public HouseBlend() {
+    HouseBlend() {
         description = "House Blend Coffee";
     }
 

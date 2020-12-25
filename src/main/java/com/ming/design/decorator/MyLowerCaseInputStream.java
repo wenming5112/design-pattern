@@ -7,14 +7,12 @@ import java.io.InputStream;
 /**
  * I/O 装饰者-大写转小写
  *
- * @program: design-pattern
- * @description: 大写转小写-装饰者
- * @author: ming
- * @date: 2020-04-27 23:33
+ * @author ming
+ * @date 2020-04-26 23:20
  */
 public class MyLowerCaseInputStream extends FilterInputStream {
 
-    public MyLowerCaseInputStream(InputStream inputStream) {
+    MyLowerCaseInputStream(InputStream inputStream) {
         super(inputStream);
     }
 

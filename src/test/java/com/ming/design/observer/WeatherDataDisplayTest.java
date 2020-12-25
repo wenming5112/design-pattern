@@ -1,14 +1,10 @@
 package com.ming.design.observer;
 
-import com.ming.design.observer.CurrentConditionsDisplay;
-import com.ming.design.observer.WeatherData;
 import org.junit.Test;
 
 /**
- * @program: design-pattern
- * @description: 天气显示测试
- * @author: ming
- * @date: 2020-04-28 00:28
+ * @author ming
+ * @date 2020-04-26 23:20
  */
 public class WeatherDataDisplayTest {
 

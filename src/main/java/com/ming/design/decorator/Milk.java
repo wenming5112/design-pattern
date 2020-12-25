@@ -3,25 +3,23 @@ package com.ming.design.decorator;
 /**
  * 牛奶
  *
- * @program: design-pattern
- * @description: 牛奶-调料
- * @author: ming
- * @date: 2020-04-27 00:04
+ * @author ming
+ * @date 2020-04-26 23:20
  */
-public class Milk extends CondimentDecorator {
-    Beverage beverage;
+public class Milk extends AbstractCondimentDecorator {
+    private AbstractBeverage abstractBeverage;
 
-    public Milk(Beverage beverage) {
-        this.beverage = beverage;
+    Milk(AbstractBeverage abstractBeverage) {
+        this.abstractBeverage = abstractBeverage;
     }
 
     @Override
     public String getDescription() {
-        return beverage.getDescription() + " ," + "Milk";
+        return abstractBeverage.getDescription() + " ," + "Milk";
     }
 
     @Override
     public double cost() {
-        return .10 + beverage.cost();
+        return .10 + abstractBeverage.cost();
     }
 }

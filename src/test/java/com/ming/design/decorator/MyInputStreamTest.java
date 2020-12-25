@@ -7,10 +7,8 @@ import java.io.FileInputStream;
 import java.io.InputStream;
 
 /**
- * @program: design-pattern
- * @description: I/O装饰者
- * @author: ming
- * @date: 2020-04-27 23:08
+ * @author ming
+ * @date 2020-04-26 23:20
  */
 public class MyInputStreamTest {
 

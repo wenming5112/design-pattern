@@ -3,14 +3,12 @@ package com.ming.design.decorator;
 /**
  * 深焙咖啡
  *
- * @program: design-pattern
- * @description: 深焙咖啡
- * @author: ming
- * @date: 2020-04-26 23:32
+ * @author ming
+ * @date 2020-04-26 23:20
  */
-public class DarkRoast extends Beverage {
+public class DarkRoast extends AbstractBeverage {
 
-    public DarkRoast() {
+    DarkRoast() {
         description = "Dark Roast Coffee";
     }
 
