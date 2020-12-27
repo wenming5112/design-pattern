@@ -71,7 +71,7 @@
 定义了一系列算法，并将每个算法封装起来，使它们可以相互替换，且算法的改变不会影响使用算法的客户。
 
 ## 15.命令模式(Command)
-[Command](docs/command/command-readme.md)
+[Command](docs/command-readme.md)
 <br/>
 将一个请求封装为一个对象，使发出请求的责任和执行请求的责任分割开。
 
