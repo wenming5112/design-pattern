@@ -2,4 +2,4 @@
 
 
 ### 结构图
-![Proxy](images/proxy.png "代理模式")
+![Proxy](images/proxy.jpg "代理模式")

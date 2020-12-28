@@ -2,4 +2,4 @@
 
 
 ### 结构图
-![Interpreter](images/interpreter.png "解释器模式")
+![Interpreter](images/interpreter.jpg "解释器模式")

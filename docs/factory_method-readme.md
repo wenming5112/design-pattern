@@ -17,7 +17,7 @@
 客户不关心创建产品的细节，只关心产品的品牌
 
 ### 结构
-![Factory Method](images/factory_method.png "工厂方法模式")
+![Factory Method](images/factory_method.jpg "工厂方法模式")
 
 ### 详细代码
 

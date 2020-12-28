@@ -2,4 +2,4 @@
 
 
 ### 结构图
-![Flyweight](images/flyweight.png "享元模式")
+![Flyweight](images/flyweight.jpg "享元模式")
