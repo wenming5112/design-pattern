@@ -2,7 +2,7 @@
 
 ### 结构图
 
-![Singleton](images/singleton.jpg "单例模式")
+![Singleton](images/singleton.jpg)
 
 ### 懒汉式
 ```java
