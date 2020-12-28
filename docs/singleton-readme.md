@@ -1,5 +1,9 @@
 ## 单例模式(Singleton)
 
+### 结构图
+
+![Singleton](images/singleton.png "单例模式")
+
 ### 懒汉式
 ```java
 /**
