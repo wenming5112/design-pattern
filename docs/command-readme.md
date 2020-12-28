@@ -3,5 +3,5 @@
 
 
 ### 结构图
-![Command](images/command.jpg "命令模式")
+![Command](images/command.png "命令模式")
 

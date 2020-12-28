@@ -4,4 +4,4 @@
 
 
 ### 结构图
-![Strategy](images/strategy.jpg "策略模式")
+![Strategy](images/strategy.png "策略模式")

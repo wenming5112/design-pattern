@@ -3,5 +3,5 @@
 
 
 ### 结构图
-![State](images/state.jpg "状态模式")
+![State](images/state.png "状态模式")
 

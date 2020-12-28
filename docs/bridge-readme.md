@@ -2,4 +2,4 @@
 
 
 ### 桥接模式
-![bridge](images/bridge.jpg "桥接模式")
+![bridge](images/bridge.png "桥接模式")

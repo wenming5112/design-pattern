@@ -32,7 +32,7 @@
 - 系统中大量使用该类对象，且各个调用者都需要给它的属性重新赋值。
 
 ### 结构
-![Prototype](images/prototype.jpg "原型模式")
+![Prototype](images/prototype.png "原型模式")
 
 
 ```java

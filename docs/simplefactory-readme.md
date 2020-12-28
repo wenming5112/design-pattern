@@ -16,7 +16,7 @@
 对于产品种类相对较少的情况，考虑使用简单工厂模式。使用简单工厂模式的客户端只需要传入工厂类的参数，不需要关心如何创建对象的逻辑，可以很方便地创建所需产品。
 
 ### 结构图
-![SimpleFactory](images/simple_factory.jpg "简单工厂模式")
+![SimpleFactory](images/simple_factory.png "简单工厂模式")
 
 ```java
 public interface Product {

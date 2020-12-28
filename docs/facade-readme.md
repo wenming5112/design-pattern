@@ -2,4 +2,4 @@
 
 
 ### 结构图
-![Facade](images/facade.jpg "外观模式")
+![Facade](images/facade.png "外观模式")
