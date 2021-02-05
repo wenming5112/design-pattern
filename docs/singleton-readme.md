@@ -1,5 +1,7 @@
 ## 单例模式(Singleton)
 
+某个类只能生成一个实例，该类提供了一个全局访问点供外部获取该实例，其拓展是有限多例模式。
+
 ### 结构图
 
 ![Singleton](images/singleton.png)

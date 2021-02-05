@@ -1,5 +1,8 @@
 ## 建造者模式(Builder)
 
+将一个复杂对象分解成多个相对简单的部分，然后根据不同需要分别创建它们，最后构建成该复杂对象。
+
+
 将一个复杂对象的构造与它的表示分离，使同样的构建过程可以创建不同的表示，这样的设计模式被称为建造者模式。
 
 ### 结构图
@@ -70,7 +73,7 @@ public abstract class BaseBuilder {
      *
      * @return Product
      */
-    public Product getResult() {
+    public Product build() {
         return product;
     }
 }
@@ -108,7 +111,7 @@ public class Director {
         builder.buildPartA();
         builder.buildPartB();
         builder.buildPartC();
-        return builder.getResult();
+        return builder.build();
     }
 }
 

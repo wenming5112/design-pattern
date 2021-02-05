@@ -21,6 +21,6 @@ public class Director {
         builder.buildPartA();
         builder.buildPartB();
         builder.buildPartC();
-        return builder.getResult();
+        return builder.build();
     }
 }

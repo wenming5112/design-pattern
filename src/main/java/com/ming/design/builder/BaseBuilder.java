@@ -28,7 +28,7 @@ public abstract class BaseBuilder {
      *
      * @return Product
      */
-    public Product getResult() {
+    public Product build() {
         return product;
     }
 }
